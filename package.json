@@ -1,0 +1,21 @@
+{
+  "name": "node_mongo",
+  "version": "1.0.0",
+  "description": "Node + Mongo Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "John Alexis Guerra Gómez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "jade": "^1.11.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

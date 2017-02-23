@@ -1,0 +1,1 @@
+mongoimport --db node_mongo --collection tweets --drop --file tweets.json
