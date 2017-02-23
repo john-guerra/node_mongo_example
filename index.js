@@ -26,12 +26,17 @@ function getTweets(query, callback) {
 
 app.set('view engine', 'jade');
 app.set('views', './views');
+app.use(express.static('public'))
 
 app.get('/', function (req, res) {
 	getTweets({},
 		function (tweets) {
 			res.render("index", {tweets:tweets});
 		});
+});
+
+app.get('/index_jquery', function (req, res) {
+	res.render("index_jquery");
 });
 
 app.get('/tweets', function (req, res) {
